@@ -39,7 +39,7 @@ function reportPosition(position) {
   var mapImage = document.createElement("img");
   mapImage.src ="https://maps.googleapis.com/maps/api/staticmap?center=" +
                 latitude + "," + longitude +
-                "&zoom=14&size=400x400&maptype=roadmap&markers=color:red%7Clabel:A%7C" +
+                "&zoom=14&size=400x400&maptype=roadmap&markers=color:red%7C" +
                 latitude + "," + longitude +
                 "&key=" + key;
   
